@@ -1,0 +1,34 @@
+// SPDX-License-Identifier: MIT
+//versionを指定
+pragma solidity >=0.8.18 <0.9.0;
+
+contract SimpleStorage {
+    uint256 myFavoriteNumber; //0
+    //リスト型
+    //uint256[] listOfFavoriteNumbers; //[]
+    struct Person{
+        uint256 favoriteNumber;
+        string name;
+    }
+
+    // Person public pat = Person({favoritenumber: 12, name:"Pat"});
+    Person[] public listOfPeople;
+    
+    function store(uint256 _favoriteNumber) public {
+        myFavoriteNumber = _favoriteNumber;
+    }
+
+    //viewはステートを読むだけの際に使う。(変数のUpdateなどはできない)
+    //Transactioinが発生しないのでGas代を節約できる。
+    function retrieve() public view returns(uint256){
+        return myFavoriteNumber;
+    }
+
+    //calldata, memory, storage
+    //calldataとmemoryの変数は一時的に存在するだけ。
+    //calldataは関数内で不変でmemoryは可変。
+    //storageは永続的に存在する。
+    function addPerson(uint256 _favoriteNumber, string memory _name) public {
+        listOfPeople.push(Person(_favoriteNumber, _name));
+    }
+}
