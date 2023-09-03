@@ -12,7 +12,11 @@ contract SimpleStorage {
     }
 
     // Person public pat = Person({favoritenumber: 12, name:"Pat"});
+    //dynamic array
     Person[] public listOfPeople;
+
+    //名前から好きな数を割り出す。Bob => 3など。
+    mapping(string=>uint256) public nameToFavoriteNumber;
     
     function store(uint256 _favoriteNumber) public {
         myFavoriteNumber = _favoriteNumber;
@@ -30,5 +34,6 @@ contract SimpleStorage {
     //storageは永続的に存在する。
     function addPerson(uint256 _favoriteNumber, string memory _name) public {
         listOfPeople.push(Person(_favoriteNumber, _name));
+        nameToFavoriteNumber[_name] = _favoriteNumber;
     }
 }
