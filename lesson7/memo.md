@@ -22,8 +22,14 @@ forge test --fork-url $SEPOLIA_RPC_URL
 forge coverage
 ```
 
+
+以下、Markdownの練習
 ```mermaid
 sequenceDiagram
     ノードA->>ノードB: テスト
 
+```
+
+```LaTeX
+7 \equiv 4 \pmod{3}
 ```
