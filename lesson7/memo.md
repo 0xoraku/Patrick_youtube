@@ -21,7 +21,10 @@ forge test --fork-url $SEPOLIA_RPC_URL
 ```bash
 forge coverage
 ```
-
+## Gas代を調べる
+```bash
+forge snapshot --match-test testWithDrawWithASingleFunder
+```
 
 以下、Markdownの練習
 ```mermaid
