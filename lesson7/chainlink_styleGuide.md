@@ -1,3 +1,4 @@
+(source)[https://github.com/smartcontractkit/chainlink/blob/develop/contracts/STYLE.md]
 # Solidity Style Guide
 
 ## Background
