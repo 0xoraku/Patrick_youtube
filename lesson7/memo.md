@@ -25,6 +25,12 @@ forge coverage
 ```bash
 forge snapshot --match-test testWithDrawWithASingleFunder
 ```
+## Storageの構造を調べる
+```bash
+forge inspect FundMe storageLayout
+```
+
+
 
 以下、Markdownの練習
 ```mermaid
