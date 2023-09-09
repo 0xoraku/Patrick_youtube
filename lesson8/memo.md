@@ -1,6 +1,6 @@
 front側でどう繋ぐか。
 <br>
-Metamaskのdocs
+MetaMaskのdocs
 https://docs.metamask.io/wallet/tutorials/react-dapp-local-state/
 
 ether.jsのdocs
