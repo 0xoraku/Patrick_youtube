@@ -32,6 +32,9 @@ forge inspect FundMe storageLayout
 
 ## DevOps tool
 https://github.com/Cyfrin/foundry-devops/tree/main
+```bash
+forge install Cyfrin/foundry-devops --no-commit
+```
 
 
 
