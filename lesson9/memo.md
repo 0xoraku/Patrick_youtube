@@ -46,4 +46,4 @@ topic[0]は常にイベント自体のハッシュを指し、最大3つのイ�
 - (Chainlink automation)[https://docs.chain.link/chainlink-automation/introduction]
 - (Chainlink Network address)[https://docs.chain.link/vrf/v2/subscription/supported-networks]
 - (FoundryでEventをTestする事例)[https://book.getfoundry.sh/cheatcodes/expect-emit?highlight=expectemit#expectemit]
-- (solmate,library等)[https://github.com/transmissions11/solmate]
+- (solmate,OpenZeppelinのlibraryのようなもの)[https://github.com/transmissions11/solmate]
