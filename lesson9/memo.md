@@ -36,6 +36,11 @@ assert は、テストの結果を検証するために使用されます。こ�
 テスト駆動開発では、最初にテストを書き、その後にコードを書くことが推奨されます。この手法により、開発者は、コードが期待通りに動作することを確認するための自動化されたテストを持つことができます。また、テスト駆動開発により、開発者は、コードの品質を向上させ、バグを減らすことができます。
 
 
+## Words
+#### Topic
+トピックは、Eventのログに含まれるトピックスの配列であり、Eventのフィルタリングに使用されます。
+topic[0]は常にイベント自体のハッシュを指し、最大3つのインデックス付き引数を持つことができ、それぞれがtopicに反映される。
+
 ## Ref
 - (Chainlink vrf)[https://docs.chain.link/vrf/v2/introduction]
 - (Chainlink automation)[https://docs.chain.link/chainlink-automation/introduction]
