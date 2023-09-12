@@ -25,4 +25,5 @@ CEI: Checks-Effects-Interactions
 Re-entrancy攻撃を抑える
 
 ## Ref
-(chainlink vrf)[https://docs.chain.link/vrf/v2/introduction]
+- (Chainlink vrf)[https://docs.chain.link/vrf/v2/introduction]
+- (Chainlink automation)[https://docs.chain.link/chainlink-automation/introduction]
