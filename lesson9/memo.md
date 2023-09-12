@@ -27,3 +27,4 @@ Re-entrancy攻撃を抑える
 ## Ref
 - (Chainlink vrf)[https://docs.chain.link/vrf/v2/introduction]
 - (Chainlink automation)[https://docs.chain.link/chainlink-automation/introduction]
+- (Chainlink Network address)[https://docs.chain.link/vrf/v2/subscription/supported-networks]
