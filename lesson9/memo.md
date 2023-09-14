@@ -43,7 +43,7 @@ topic[0]は常にイベント自体のハッシュを指し、最大3つのイ�
 
 ## CLI
 
-DevOps tool
+DevOps tool[https://github.com/Cyfrin/foundry-devops]
 ```bash
 forge install Cyfrin/foundry-devops --no-commit
 ```
