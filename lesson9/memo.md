@@ -41,6 +41,13 @@ assert は、テストの結果を検証するために使用されます。こ�
 トピックは、Eventのログに含まれるトピックスの配列であり、Eventのフィルタリングに使用されます。
 topic[0]は常にイベント自体のハッシュを指し、最大3つのインデックス付き引数を持つことができ、それぞれがtopicに反映される。
 
+## CLI
+
+DevOps tool
+```bash
+forge install Cyfrin/foundry-devops --no-commit
+```
+
 ## Ref
 - (Chainlink vrf)[https://docs.chain.link/vrf/v2/introduction]
 - (Chainlink automation)[https://docs.chain.link/chainlink-automation/introduction]
