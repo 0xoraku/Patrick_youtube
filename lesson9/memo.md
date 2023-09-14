@@ -48,6 +48,11 @@ DevOps tool
 forge install Cyfrin/foundry-devops --no-commit
 ```
 
+testのcoverageの詳細を知りたい
+```bash
+forge coverage --report debug > coverage.txt
+```
+
 ## Ref
 - (Chainlink vrf)[https://docs.chain.link/vrf/v2/introduction]
 - (Chainlink automation)[https://docs.chain.link/chainlink-automation/introduction]
