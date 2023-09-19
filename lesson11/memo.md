@@ -14,5 +14,5 @@ keccak256(abi.encodePacked(str1)) == keccak256(abi.encodePacked(str2));
 
 svgのコードをterminalでbase64に変換
 ```bash
-base64 -i <filename>
+base64 -i <filename>.svg
 ```
