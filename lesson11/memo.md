@@ -16,3 +16,7 @@ svgのコードをterminalでbase64に変換
 ```bash
 base64 -i <filename>.svg
 ```
+
+## tokenURIとImageURI
+tokenURIはjson形式でnameやdesc, imageURIを含んだものを更にBase64でエンコードしたもの。
+imageURIは画像のURI、SVGをbase64でエンコードしたもの。
