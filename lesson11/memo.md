@@ -44,3 +44,7 @@ fs_permissions = [] # default: all file cheat codes are disabled
 
 ```
 https://book.getfoundry.sh/cheatcodes/fs?search=readfile
+
+
+## Solidityのより細かい説明
+https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-ii-creation-vs-runtime-6b9d60ecb44c
