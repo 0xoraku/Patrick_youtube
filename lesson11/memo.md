@@ -48,3 +48,11 @@ https://book.getfoundry.sh/cheatcodes/fs?search=readfile
 
 ## Solidityのより細かい説明
 https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-ii-creation-vs-runtime-6b9d60ecb44c
+
+## CLIのcastでtransactionを検証できる
+```bash
+cast sig "transferFrom(address,address,uint256)"
+```
+0x23b872dd
+
+
