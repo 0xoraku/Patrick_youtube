@@ -54,8 +54,8 @@ forge coverage --report debug > coverage.txt
 ```
 
 ## Ref
-- (Chainlink vrf)[https://docs.chain.link/vrf/v2/introduction]
-- (Chainlink automation)[https://docs.chain.link/chainlink-automation/introduction]
-- (Chainlink Network address)[https://docs.chain.link/vrf/v2/subscription/supported-networks]
-- (FoundryでEventをTestする事例)[https://book.getfoundry.sh/cheatcodes/expect-emit?highlight=expectemit#expectemit]
-- (solmate,OpenZeppelinのlibraryのようなもの)[https://github.com/transmissions11/solmate]
+- [Chainlink vrf](https://docs.chain.link/vrf/v2/introduction)
+- [Chainlink automation](https://docs.chain.link/chainlink-automation/introduction)
+- [Chainlink Network address](https://docs.chain.link/vrf/v2/subscription/supported-networks)
+- [FoundryでEventをTestする事例](https://book.getfoundry.sh/cheatcodes/expect-emit?highlight=expectemit#expectemit)
+- [solmate,OpenZeppelinのlibraryのようなもの](https://github.com/transmissions11/solmate)
