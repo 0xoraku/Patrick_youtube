@@ -10,7 +10,7 @@
 
 ## Solidity関連
 ### external
-全てのexternalにはnonReentrantをつけるくらいの感覚で良い。
+全てのexternalにはnonReentrantのmodifierをつけるくらいの感覚で良い。
 
 ### internal
 internal functionの関数名の最初にアンダースコア_をつける。
