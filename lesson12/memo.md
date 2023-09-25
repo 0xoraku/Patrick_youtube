@@ -23,3 +23,9 @@ v3Interface等のtest用
 ```bash
 forge install smartcontractkit/chainlink-brownie-contracts@0.6.1 --no-commit
 ```
+
+## OpenZeppelin
+OZのERC20のMockが更新されているので注意。
+```bash
+forge install openzeppelin/openzeppelin-contracts@v4.8.3 --no-commit
+```
