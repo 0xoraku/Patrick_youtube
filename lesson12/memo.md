@@ -43,7 +43,14 @@ forge install openzeppelin/openzeppelin-contracts@v4.8.3 --no-commit
 [Foundry docs](https://book.getfoundry.sh/forge/invariant-testing)
 
 ### cli
-contractのmethodを一覧化
+contractのmethodをselectorと共に一覧化
 ```bash
 forge inspect DSCEngine methods
+```
+一部出力
+```
+  {
+    "burnDsc(uint256)": "f6876608",
+    "depositCollateral(address,uint256)": "a5d5db0c",
+  ...
 ```
