@@ -59,3 +59,9 @@ library GetCode {
 [assembly](https://docs.soliditylang.org/en/latest/assembly.html)
 
 [Yul](https://docs.soliditylang.org/en/latest/yul.html#yul)
+
+
+## OpenZeppelin
+[fallback関数でdelegatecallを呼び出すproxy contract](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/Proxy.sol)
+
+[Proxy upgradeのパターンの解説](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies)
