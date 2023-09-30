@@ -66,6 +66,12 @@ library GetCode {
 
 [Proxy upgradeのパターンの解説](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies)
 
+#### CLI
+[openzeppelin-contracts-upgradeable](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable)
+```bash
+forge install OpenZeppelin/openzeppelin-contracts-upgradeable --no-commit
+```
+
 ## TransparentとUUPS Proxies
 [OpenZeppelin doc](https://docs.openzeppelin.com/contracts/4.x/api/proxy#transparent-vs-uups)
 
