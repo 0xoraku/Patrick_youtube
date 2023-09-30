@@ -67,6 +67,8 @@ library GetCode {
 [Proxy upgradeのパターンの解説](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies)
 
 ## TransparentとUUPS Proxies
+[OpenZeppelin doc](https://docs.openzeppelin.com/contracts/4.x/api/proxy#transparent-vs-uups)
+
 以下、chatGPTより
 ```
 Solidityで書かれたスマートコントラクトは、一旦デプロイされると、コードの変更が不可能です。しかし、デザインパターンの1つである「プロキシ」を使うことで、スマートコントラクトのロジックをアップデートすることができるようになります。
