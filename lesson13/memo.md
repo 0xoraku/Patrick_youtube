@@ -35,6 +35,7 @@ uint256 public hoge;
 このように型が違うとTransactionは成功するが、意味のないものとなる。
 
 ## Solidity
+#### assembly
 インライン アセンブリ ブロックは、assembly { ... } でマークされます。
 中括弧内のコードは Yul 言語のコードです。
 ```solidity
@@ -59,6 +60,9 @@ library GetCode {
 [assembly](https://docs.soliditylang.org/en/latest/assembly.html)
 
 [Yul](https://docs.soliditylang.org/en/latest/yul.html#yul)
+
+### abstract 抽象コントラクト
+Solidityのabstractキーワードは、抽象コントラクトを定義するために使用されます。抽象コントラクトは、実装されていない関数を含むコントラクトであり、他のコントラクトで継承されることを意図しています。抽象コントラクトは、インターフェースと似た機能を持ちますが、抽象コントラクトは変数や関数の実装を含むことができます。抽象コントラクトは、実装されていない関数を含むため、自身をインスタンス化することはできません。抽象コントラクトを継承するコントラクトは、抽象コントラクトの未実装の関数を実装する必要があります。抽象コントラクトは、コントラクトの設計を分割し、コントラクトの機能をより明確にするために使用されます。
 
 
 ## OpenZeppelin
